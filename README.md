@@ -4,7 +4,7 @@ End-to-end data analysis project covering the full pipeline: Python for data cle
 
 ## Overview
 
-This project analyzes 3,900 customer shopping transactions to uncover patterns in spending behavior, product performance, and customer segments — turning raw transactional data into actionable business recommendations.
+This project analyzes 3,900 customer shopping transactions to uncover patterns in spending behavior, product performance, and customer segments - turning raw transactional data into actionable business recommendations.
 
 ## Business Questions Answered
 
@@ -72,5 +72,5 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 <img width="1128" height="634" alt="customer behavior dashboard powerbi" src="https://github.com/user-attachments/assets/29d3f5fd-3dcf-46ee-8f16-5b9ccef43036" />
 
 ## Author
-**Pranish Pradhan** — Business Analyst
+**Pranish Pradhan** | Business Analyst
 https://www.linkedin.com/in/mrpranishpradhan/ • pranish.pradhan.2024@gmail.com
