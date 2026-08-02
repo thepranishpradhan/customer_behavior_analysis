@@ -54,6 +54,7 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 - **Best-sellers by category**: Top 3 items by order volume include Jewelry, Sunglasses, and Belt (Accessories); Blouse, Pants, and Shirt (Clothing); Sandals, Shoes, and Sneakers (Footwear); and Jacket and Coat (Outerwear).
 
 ## Repository Structure
+```
 ├── data/
 │   └── customer_behavior_analysis.csv
 ├── notebooks/
@@ -67,6 +68,7 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 ├── report/
 │   └── customer_behavior_analysis.docx
 └── README.md
+```
 
 ## Dashboard Preview
 <img width="1128" height="634" alt="customer behavior dashboard powerbi" src="https://github.com/user-attachments/assets/29d3f5fd-3dcf-46ee-8f16-5b9ccef43036" />
