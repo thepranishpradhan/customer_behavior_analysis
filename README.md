@@ -75,4 +75,5 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 
 ## Author
 **Pranish Pradhan** | Business Analyst
+
 https://www.linkedin.com/in/mrpranishpradhan/ • pranish.pradhan.2024@gmail.com
