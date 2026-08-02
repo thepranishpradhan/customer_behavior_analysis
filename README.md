@@ -55,17 +55,17 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 
 ## Repository Structure
 ├── data/
-│ └── customer_behavior_analysis.csv
+│   └── customer_behavior_analysis.csv
 ├── notebooks/
-│ └── customer_behavior_analysis.ipynb
+│   └── customer_behavior_analysis.ipynb
 ├── sql/
-│ └── customer_behavior_analysis.sql
+│   └── customer_behavior_analysis.sql
 ├── dashboard/
-│ └── customer_behavior_analysis.pbix
+│   └── customer_behavior_analysis.pbix
 ├── presentation/
-│ └── customer_behavior_analysis.pptx
+│   └── customer_behavior_analysis.pptx
 ├── report/
-│ └── customer_behavior_analysis.docx
+│   └── customer_behavior_analysis.docx
 └── README.md
 
 ## Dashboard Preview
