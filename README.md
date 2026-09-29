@@ -2,6 +2,12 @@
 
 End-to-end data analysis project covering the full pipeline: Python for data cleaning, PostgreSQL/SQL for business-question analysis, and Power BI for dashboard visualization.
 
+## Explore the project
+
+[Python notebook](notebooks/) · [SQL analysis](sql/) · [Power BI dashboard](dashboard/) · [Presentation](presentation/) · [Written report](report/) · [Dataset](data/)
+
+**Review path:** start with the findings below, inspect the SQL and notebook for the method, then open the dashboard and report for the presentation of results.
+
 ## Overview
 
 This project analyzes 3,900 customer shopping transactions to uncover patterns in spending behavior, product performance, and customer segments - turning raw transactional data into actionable business recommendations.
@@ -22,7 +28,7 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 
 - **Source**: Customer shopping behavior dataset
 - **Size**: 3,900 rows, 18 columns
-- **Data quality**: 37 missing values, isolated to the Review Rating column — imputed using category-level median, preserving distribution integrity
+- **Data quality**: 37 missing values, isolated to the Review Rating column — imputed using category-level median; this is an approximation and may affect rating comparisons
 - **Key fields**: customer demographics, purchase amount, category, item purchased, review rating, subscription status, shipping type, discount usage, frequency of purchases
 
 ## Tools Used
@@ -48,10 +54,18 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 
 - **Revenue by gender**: Male customers generate significantly more total revenue than female customers ($157,890 vs. $75,191), but this is driven entirely by customer volume — there are more than twice as many male customers (2,652) as female (1,248). Average spend per customer is nearly identical ($59.54 male vs. $60.25 female), with female customers spending marginally more per transaction.
 - **Top-rated products**: Gloves (3.86/5), Sandals (3.84/5), Boots (3.82/5), Hat (3.80/5), and Skirt (3.79/5) are the five highest-rated items by average customer review.
-- **Shipping type**: Express shipping customers spend modestly more on average than standard shipping customers ($60.48 vs. $58.46 — about 3.5% higher), a real but small effect.
+- **Shipping type**: Express shipping customers spend modestly more on average than standard shipping customers ($60.48 vs. $58.46 — about 3.5% higher), a descriptive difference; this analysis does not establish that shipping choice causes higher spending.
 - **Subscription status**: Subscribers don't spend more per transaction than non-subscribers ($59.49 vs. $59.87) and contribute revenue proportionate to their customer share (27% of customers, 27% of revenue). Subscribers do show modestly more previous purchases (26.08 vs. 25.08 — about 4% higher).
 - **Customer segmentation**: Segmenting by previous purchase count (New = 1, Returning = 2–10, Loyal = 11+) shows the base is overwhelmingly established: 79.9% of customers (3,116) are Loyal, 18.0% (701) are Returning, and only 2.1% (83) are genuinely New.
 - **Best-sellers by category**: Top 3 items by order volume include Jewelry, Sunglasses, and Belt (Accessories); Blouse, Pants, and Shirt (Clothing); Sandals, Shoes, and Sneakers (Footwear); and Jacket and Coat (Outerwear).
+
+## Business interpretation and limitations
+
+- Compare average spending alongside total revenue so differences in customer counts do not become misleading segment conclusions.
+- Treat subscription and shipping comparisons as associations. A controlled test or longitudinal analysis would be needed to assess incremental business impact.
+- The “Loyal” label is a rule based on previous purchase count, not a measured retention rate or customer lifetime value.
+- Dataset provenance and collection methodology are not documented here beyond the supplied dataset name. Findings describe this dataset and should not be generalized to a retailer or market without further validation.
+- Recommendations are analytical proposals; this portfolio project does not claim implemented revenue or retention gains.
 
 ## Repository Structure
 ```
@@ -74,6 +88,6 @@ This project analyzes 3,900 customer shopping transactions to uncover patterns i
 <img width="1128" height="634" alt="customer behavior dashboard powerbi" src="https://github.com/user-attachments/assets/29d3f5fd-3dcf-46ee-8f16-5b9ccef43036" />
 
 ## Author
-**Pranish Pradhan** | Business Analyst
+**Pranish Pradhan** | Business Operations & Automotive Sales · MBA, Business Analytics
 
-https://www.linkedin.com/in/mrpranishpradhan/ • pranish.pradhan.2024@gmail.com
+https://www.linkedin.com/in/mrpranishpradhan/ • pranishprof7@gmail.com
